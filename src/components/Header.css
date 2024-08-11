@@ -1,0 +1,60 @@
+/* src/components/Header.css */
+
+:root{
+  --bg-color:#191f36;
+  --snd-bf-color:#262B40;
+  --text-color:#fff;
+  --main-color:#59B2f4;
+}.header {
+    background-color: #282c34;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header-title {
+    color: #61dafb;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .nav {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-item {
+    font-size: 16px;
+  }
+  
+  .nav-item a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .nav-item a:hover {
+    color: #61dafb;
+  }
+  
