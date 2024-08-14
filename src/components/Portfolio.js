@@ -36,6 +36,14 @@ const Portfolio = () => {
                         <i className="fa-solid fa-up-right-from-square"></i>
                     </div>
                 </div>
+                <div className="portfolio-box">
+                    <img src={grocery} alt="web design" />
+                    <div className="portfolio-layer">
+                        <h4>command line billing System</h4>
+                        <p>A command-line billing system in C for a beverage shop, enabling item entry, total cost calculation, and bill generation. This project showcases C programming skills and efficient data handling.</p>
+                        <i className="fa-solid fa-up-right-from-square"></i>
+                    </div>
+                </div>
             </div>
         </section> 
     );
